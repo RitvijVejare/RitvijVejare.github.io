@@ -1,0 +1,27 @@
+header .brand-logo{
+    font-family: serif, "Brush Script MT", sans-serif;
+}
+header h2,header .flow-text{
+    font-family: "Yusei Magic", "Brush Script MT", serif, sans-serif;
+}
+header{
+    background-image: url("images/backgroundImage.jpg");
+    background-size: cover;
+    background-position: center;
+    min-height: 500px;
+}
+.tabs .indicator{
+    background-color: #1a237e;
+}
+.tabs .tab a:focus, .tabs .tab a:focus.active{
+    background: transparent;
+}
+.section{
+    padding-top: 2vw;
+    padding-bottom: 2vw;
+}
+@media screen and (max-width: 670px){
+    header{
+        min-height: 300px;
+    }
+}
